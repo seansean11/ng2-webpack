@@ -1,4 +1,3 @@
-
 module.exports = {
   entry: {
     polyfills: './src/polyfills.ts',
@@ -10,5 +9,10 @@ module.exports = {
   },
   resolve: {
     extensions: ['', '.js', '.ts']
+  },
+  module: {
+    loaders: [
+
+    ]
   }
 };
