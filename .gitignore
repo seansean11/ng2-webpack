@@ -1,0 +1,21 @@
+# Logs
+logs
+*.log
+
+# Coverage directory used by tools like istanbul
+coverage
+
+#IDE configuration files
+.idea
+.vscode
+*.iml
+
+# Dependency directory
+/node_modules/
+/typings/
+
+# Build
+dist
+
+# OS X trash files
+.DS_Store
