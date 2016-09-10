@@ -1,3 +1,4 @@
+require('ts-node/register');
 var helpers = require('./config/helpers');
 
 exports.config = {
