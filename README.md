@@ -1,2 +1,2 @@
 # ng2-webpack
-A bare-bones Angular 2, Webpack, and Sass starter app.
+A production ready Angular 2, Webpack, and Sass starter app with the minimal amount of complexity.
