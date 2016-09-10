@@ -18,6 +18,9 @@ npm start
 # run unit tests
 npm test
 
+# run e2e tests
+npm run e2e
+
 # build for deveolopment or production environment
 npm run build
 ```
