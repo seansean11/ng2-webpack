@@ -8,6 +8,7 @@ module.exports = function(config) {
     preprocessors: { './config/karma-test-shim.js': ['coverage', 'webpack', 'sourcemap'] },
     webpack: webpackTest,
     webpackServer: { noInfo: true },
+    webpackMiddleware: { stats: 'errors-only' },
     coverageReporter: {
       dir : 'coverage/',
       reporters: [
