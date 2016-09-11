@@ -8,5 +8,9 @@
 </head>
 <body>
   <nw-app></nw-app>
+
+  <% if (process.env.ENV !== 'production') { %>
+    <script src="/webpack-dev-server.js"></script>
+  <% } %>
 </body>
 </html>
