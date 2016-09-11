@@ -1,5 +1,5 @@
 # ng2-webpack
-A production ready Angular 2, TypeScript, Webpack, and SASS starter app with the **minimal** amount of complexity.
+A production ready Angular 2, TypeScript, Webpack, and SASS starter app **without** the complexity.
 
 ## Quick start
 ```bash
