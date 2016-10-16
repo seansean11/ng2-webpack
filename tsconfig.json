@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -7,7 +8,19 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
-    "noImplicitAny": false,
-    "suppressImplicitAnyIndexErrors": true
-  }
+    "noImplicitAny": false
+  },
+  "typeRoots": [
+    "./node_modules/@types",
+    "./node_modules"
+  ],
+  "types": [
+    "core-js",
+    "jasmine",
+    "node",
+    "protractor"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
